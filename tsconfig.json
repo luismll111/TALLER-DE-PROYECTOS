@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    
+    "jsx": "react-jsx",     // 👈 aquí habilitamos JSX
+    "esModuleInterop": true // 👈 también agregamos esto por la advertencia de ts-jest
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
